@@ -4,7 +4,7 @@
 > A graph database application built on CognoDB (openCypher/Bolt) that lets students visually
 > explore course prerequisite chains, check eligibility, and plan their academic path.
 
-🚀 **[Live Demo](https://college-course-prerequisite-explore.vercel.app/)** · 📹 **[Screen Recording](#)** · 📊 **[Data Model](#data-model)**
+🚀 **[Live Demo](https://college-course-prerequisite-explore.vercel.app/)** · 📹 **[Screen Recording](https://drive.google.com/file/d/15ryzvy0sd-f7u03BlnFIDY73bzJJwNm7/view?usp=sharing)** · 📊 **[Data Model](#data-model)**
 
 ---
 
