@@ -110,8 +110,8 @@ For step-by-step instructions on deploying the backend to **Render** and the fro
 
 ### 2. Install & Configure
 ```bash
-git clone <repo-url>
-cd college-course-explorer
+git clone https://github.com/Ak-assh/College_course_prerequisite_explorer.git
+cd College_course_prerequisite_explorer
 npm install
 
 # Create your .env file from the template
@@ -122,7 +122,7 @@ Edit `.env`:
 ```
 NEO4J_URI=bolt+s://YOUR_INSTANCE_ID.databases.cognodb.cloud
 NEO4J_PASSWORD=your-generated-password
-PORT=3000
+PORT=5000
 ```
 
 ### 3. Seed the Database
