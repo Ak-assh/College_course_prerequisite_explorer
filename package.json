@@ -1,0 +1,38 @@
+{
+  "name": "college-course-prerequisite-explorer",
+  "version": "1.0.0",
+  "description": "Graph database application built on CognoDB (openCypher/Bolt) to explore college course prerequisite chains, check eligibility, and plan learning paths.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:client": "cd client && npm install && npm run build",
+    "build": "npm run build:client",
+    "seed": "node scripts/seed.js",
+    "clear": "node scripts/clear.js",
+    "test": "node test/verify-queries.js"
+  },
+  "keywords": [
+    "cognodb",
+    "neo4j",
+    "graph-database",
+    "opencypher",
+    "cytoscape",
+    "react",
+    "express"
+  ],
+  "author": "Candidate",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "neo4j-driver": "^5.23.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "inst-1",
+    "name": "Dr. Sarah Chen",
+    "email": "sarah.chen@lakewood.edu",
+    "title": "Associate Professor",
+    "departmentId": "dept-cs"
+  },
+  {
+    "id": "inst-2",
+    "name": "Prof. Alan Vance",
+    "email": "alan.vance@lakewood.edu",
+    "title": "Professor & Dept Chair",
+    "departmentId": "dept-cs"
+  },
+  {
+    "id": "inst-3",
+    "name": "Dr. Maya Patel",
+    "email": "maya.patel@lakewood.edu",
+    "title": "Assistant Professor",
+    "departmentId": "dept-cs"
+  },
+  {
+    "id": "inst-4",
+    "name": "Prof. David Miller",
+    "email": "david.miller@lakewood.edu",
+    "title": "Professor",
+    "departmentId": "dept-math"
+  },
+  {
+    "id": "inst-5",
+    "name": "Dr. Elena Rostova",
+    "email": "elena.rostova@lakewood.edu",
+    "title": "Associate Professor",
+    "departmentId": "dept-math"
+  },
+  {
+    "id": "inst-6",
+    "name": "Dr. Marcus Johnson",
+    "email": "marcus.johnson@lakewood.edu",
+    "title": "Associate Professor",
+    "departmentId": "dept-ds"
+  },
+  {
+    "id": "inst-7",
+    "name": "Dr. Priya Sharma",
+    "email": "priya.sharma@lakewood.edu",
+    "title": "Assistant Professor",
+    "departmentId": "dept-ds"
+  },
+  {
+    "id": "inst-8",
+    "name": "Prof. Robert Thorne",
+    "email": "robert.thorne@lakewood.edu",
+    "title": "Professor",
+    "departmentId": "dept-ee"
+  },
+  {
+    "id": "inst-9",
+    "name": "Dr. Kevin Zhang",
+    "email": "kevin.zhang@lakewood.edu",
+    "title": "Associate Professor",
+    "departmentId": "dept-ee"
+  },
+  {
+    "id": "inst-10",
+    "name": "Dr. Arthur Pendelton",
+    "email": "arthur.pendelton@lakewood.edu",
+    "title": "Professor",
+    "departmentId": "dept-phys"
+  }
+]

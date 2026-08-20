@@ -1,0 +1,171 @@
+/* ==========================================================================
+   Design System & Global Variables
+   College Course Prerequisite Explorer
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Deep Slate Dark Theme */
+  --bg-primary: #090a10;
+  --bg-secondary: #11131f;
+  --bg-tertiary: #181b2c;
+  --bg-card: rgba(24, 27, 44, 0.7);
+  --bg-glass: rgba(255, 255, 255, 0.03);
+  --bg-glass-hover: rgba(255, 255, 255, 0.06);
+
+  /* Primary Brand & Accents */
+  --brand-primary: #6366f1;
+  --brand-primary-hover: #4f46e5;
+  --brand-glow: rgba(99, 102, 241, 0.25);
+  --brand-secondary: #a855f7;
+
+  /* Department Branding Colors */
+  --dept-cs: #6366f1;
+  --dept-math: #10b981;
+  --dept-ee: #f59e0b;
+  --dept-ds: #06b6d4;
+  --dept-phys: #ec4899;
+
+  /* Status Colors */
+  --status-unlocked: #10b981;
+  --status-unlocked-bg: rgba(16, 185, 129, 0.12);
+  --status-almost: #f59e0b;
+  --status-almost-bg: rgba(245, 158, 11, 0.12);
+  --status-locked: #64748b;
+  --status-locked-bg: rgba(100, 116, 139, 0.12);
+  --status-completed: #3b82f6;
+  --status-completed-bg: rgba(59, 130, 246, 0.15);
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #090a10;
+
+  /* Borders & Shadows */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.14);
+  --border-focus: rgba(99, 102, 241, 0.6);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 24px var(--brand-glow);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Radius & Transitions */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Global Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-primary);
+}
+
+/* Container & Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.08) 0%, transparent 60%),
+              radial-gradient(circle at 100% 100%, rgba(168, 85, 247, 0.05) 0%, transparent 40%),
+              var(--bg-primary);
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Badge Utilities */
+.dept-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.dept-pill.dept-cs { color: #818cf8; border-color: rgba(99, 102, 241, 0.3); background: rgba(99, 102, 241, 0.1); }
+.dept-pill.dept-math { color: #34d399; border-color: rgba(16, 185, 129, 0.3); background: rgba(16, 185, 129, 0.1); }
+.dept-pill.dept-ee { color: #fbbf24; border-color: rgba(245, 158, 11, 0.3); background: rgba(245, 158, 11, 0.1); }
+.dept-pill.dept-ds { color: #22d3ee; border-color: rgba(6, 182, 212, 0.3); background: rgba(6, 182, 212, 0.1); }
+.dept-pill.dept-phys { color: #f472b6; border-color: rgba(236, 72, 153, 0.3); background: rgba(236, 72, 153, 0.1); }
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.unlocked {
+  background: var(--status-unlocked-bg);
+  color: var(--status-unlocked);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.status-badge.almost {
+  background: var(--status-almost-bg);
+  color: var(--status-almost);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.status-badge.locked {
+  background: var(--status-locked-bg);
+  color: var(--status-locked);
+  border: 1px solid rgba(100, 116, 139, 0.3);
+}
+
+.status-badge.completed {
+  background: var(--status-completed-bg);
+  color: var(--status-completed);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+}

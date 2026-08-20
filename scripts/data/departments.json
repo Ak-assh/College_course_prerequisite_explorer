@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dept-cs",
+    "code": "CS",
+    "name": "Computer Science",
+    "color": "#6366f1",
+    "description": "Foundations of computing, software engineering, systems, algorithms, and artificial intelligence."
+  },
+  {
+    "id": "dept-math",
+    "code": "MATH",
+    "name": "Mathematics",
+    "color": "#10b981",
+    "description": "Pure and applied mathematics, calculus, linear algebra, discrete math, and probability."
+  },
+  {
+    "id": "dept-ds",
+    "code": "DS",
+    "name": "Data Science",
+    "color": "#06b6d4",
+    "description": "Statistical modeling, big data pipelines, machine learning applications, and data visualization."
+  },
+  {
+    "id": "dept-ee",
+    "code": "EE",
+    "name": "Electrical Engineering",
+    "color": "#f59e0b",
+    "description": "Digital logic, computer architecture, embedded systems, signals, and hardware design."
+  },
+  {
+    "id": "dept-phys",
+    "code": "PHYS",
+    "name": "Physics",
+    "color": "#ec4899",
+    "description": "Classical mechanics, electromagnetism, quantum physics, and computational modeling."
+  }
+]

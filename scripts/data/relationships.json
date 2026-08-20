@@ -1,0 +1,194 @@
+{
+  "prerequisites": [
+    { "from": "cs-101", "to": "cs-102", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-101", "to": "cs-105", "type": "recommended", "minGrade": "C" },
+    { "from": "cs-101", "to": "cs-201", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-102", "to": "cs-201", "type": "recommended", "minGrade": "C" },
+    { "from": "cs-105", "to": "cs-205", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-201", "to": "cs-205", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "cs-101", "to": "cs-250", "type": "mandatory", "minGrade": "C" },
+    { "from": "ee-201", "to": "cs-250", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-201", "to": "cs-301", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-203", "to": "cs-301", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-201", "to": "cs-302", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-201", "to": "cs-303", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-250", "to": "cs-303", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-303", "to": "cs-304", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-201", "to": "cs-305", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-303", "to": "cs-350", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-304", "to": "cs-350", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "cs-301", "to": "cs-401", "type": "mandatory", "minGrade": "B-" },
+    { "from": "math-202", "to": "cs-401", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-301", "to": "cs-401", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-301", "to": "cs-402", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-203", "to": "cs-402", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "cs-303", "to": "cs-403", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-304", "to": "cs-403", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-303", "to": "cs-404", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-304", "to": "cs-404", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-401", "to": "cs-450", "type": "mandatory", "minGrade": "B" },
+    { "from": "math-201", "to": "cs-450", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "cs-401", "to": "cs-455", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-401", "to": "cs-460", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-301", "to": "cs-499", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-303", "to": "cs-499", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-305", "to": "cs-499", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-301", "to": "cs-501", "type": "mandatory", "minGrade": "B" },
+    { "from": "cs-403", "to": "cs-550", "type": "mandatory", "minGrade": "B" },
+    
+    { "from": "math-101", "to": "math-102", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-102", "to": "math-201", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-101", "to": "math-202", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-101", "to": "math-203", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "math-102", "to": "math-301", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-202", "to": "math-301", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "math-201", "to": "math-350", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-202", "to": "math-350", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-101", "to": "ds-101", "type": "recommended", "minGrade": "C" },
+    { "from": "ds-101", "to": "ds-201", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-101", "to": "ds-201", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "ds-201", "to": "ds-301", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-301", "to": "ds-301", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "cs-302", "to": "ds-302", "type": "mandatory", "minGrade": "C" },
+    { "from": "ds-201", "to": "ds-302", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "ds-301", "to": "ds-401", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "ds-301", "to": "ds-499", "type": "mandatory", "minGrade": "C" },
+    { "from": "ds-302", "to": "ds-499", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "phys-101", "to": "ee-101", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-101", "to": "ee-101", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "ee-101", "to": "ee-201", "type": "mandatory", "minGrade": "C" },
+    { "from": "ee-201", "to": "ee-301", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-250", "to": "ee-301", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "ee-301", "to": "ee-350", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-303", "to": "ee-350", "type": "recommended", "minGrade": "C" },
+    
+    { "from": "ee-101", "to": "ee-401", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-201", "to": "ee-401", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "math-101", "to": "phys-101", "type": "mandatory", "minGrade": "C" },
+    { "from": "phys-101", "to": "phys-102", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-102", "to": "phys-102", "type": "mandatory", "minGrade": "C" },
+    
+    { "from": "phys-102", "to": "phys-301", "type": "mandatory", "minGrade": "C" },
+    { "from": "cs-101", "to": "phys-301", "type": "mandatory", "minGrade": "C" },
+    { "from": "math-202", "to": "phys-301", "type": "recommended", "minGrade": "C" }
+  ],
+  "corequisites": [
+    { "courseA": "cs-101", "courseB": "math-101", "note": "Concurrent enrollment in Calculus I recommended for first-year CS majors" },
+    { "courseA": "cs-250", "courseB": "ee-201", "note": "Concurrent enrollment allowed" },
+    { "courseA": "phys-101", "courseB": "math-101", "note": "Calculus I must be taken alongside or before General Physics I" }
+  ],
+  "courseTopics": [
+    { "courseId": "cs-101", "topicId": "topic-prog" },
+    { "courseId": "cs-102", "topicId": "topic-prog" },
+    { "courseId": "cs-105", "topicId": "topic-web" },
+    { "courseId": "cs-201", "topicId": "topic-ds" },
+    { "courseId": "cs-201", "topicId": "topic-algo" },
+    { "courseId": "cs-205", "topicId": "topic-web" },
+    { "courseId": "cs-250", "topicId": "topic-arch" },
+    { "courseId": "cs-301", "topicId": "topic-algo" },
+    { "courseId": "cs-302", "topicId": "topic-db" },
+    { "courseId": "cs-303", "topicId": "topic-os" },
+    { "courseId": "cs-304", "topicId": "topic-net" },
+    { "courseId": "cs-305", "topicId": "topic-prog" },
+    { "courseId": "cs-350", "topicId": "topic-sec" },
+    { "courseId": "cs-401", "topicId": "topic-ml" },
+    { "courseId": "cs-401", "topicId": "topic-ai" },
+    { "courseId": "cs-402", "topicId": "topic-ai" },
+    { "courseId": "cs-403", "topicId": "topic-dist" },
+    { "courseId": "cs-404", "topicId": "topic-cloud" },
+    { "courseId": "cs-450", "topicId": "topic-dl" },
+    { "courseId": "cs-450", "topicId": "topic-ml" },
+    { "courseId": "cs-455", "topicId": "topic-nlp" },
+    { "courseId": "cs-455", "topicId": "topic-ai" },
+    { "courseId": "cs-460", "topicId": "topic-cv" },
+    { "courseId": "cs-460", "topicId": "topic-ai" },
+    { "courseId": "cs-499", "topicId": "topic-capstone" },
+    { "courseId": "cs-501", "topicId": "topic-algo" },
+    { "courseId": "cs-550", "topicId": "topic-dist" },
+    { "courseId": "math-101", "topicId": "topic-calc" },
+    { "courseId": "math-102", "topicId": "topic-calc" },
+    { "courseId": "math-201", "topicId": "topic-calc" },
+    { "courseId": "math-202", "topicId": "topic-linalg" },
+    { "courseId": "math-203", "topicId": "topic-disc" },
+    { "courseId": "math-301", "topicId": "topic-prob" },
+    { "courseId": "math-350", "topicId": "topic-opt" },
+    { "courseId": "ds-101", "topicId": "topic-prob" },
+    { "courseId": "ds-201", "topicId": "topic-db" },
+    { "courseId": "ds-301", "topicId": "topic-prob" },
+    { "courseId": "ds-302", "topicId": "topic-dist" },
+    { "courseId": "ds-401", "topicId": "topic-prob" },
+    { "courseId": "ds-499", "topicId": "topic-capstone" },
+    { "courseId": "ee-101", "topicId": "topic-circ" },
+    { "courseId": "ee-201", "topicId": "topic-circ" },
+    { "courseId": "ee-301", "topicId": "topic-arch" },
+    { "courseId": "ee-350", "topicId": "topic-embed" }
+  ],
+  "degreeRequirements": [
+    { "degreeId": "deg-bscs", "courseId": "cs-101", "required": true, "category": "Core Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "cs-102", "required": true, "category": "Core Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "math-101", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "math-102", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "cs-201", "required": true, "category": "Core Intermediate" },
+    { "degreeId": "deg-bscs", "courseId": "cs-250", "required": true, "category": "Core Intermediate" },
+    { "degreeId": "deg-bscs", "courseId": "math-202", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "math-203", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "cs-301", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bscs", "courseId": "cs-302", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bscs", "courseId": "cs-303", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bscs", "courseId": "cs-304", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bscs", "courseId": "cs-305", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bscs", "courseId": "math-301", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bscs", "courseId": "cs-401", "required": false, "category": "AI/ML Elective" },
+    { "degreeId": "deg-bscs", "courseId": "cs-402", "required": false, "category": "AI/ML Elective" },
+    { "degreeId": "deg-bscs", "courseId": "cs-403", "required": false, "category": "Systems Elective" },
+    { "degreeId": "deg-bscs", "courseId": "cs-404", "required": false, "category": "Systems Elective" },
+    { "degreeId": "deg-bscs", "courseId": "cs-450", "required": false, "category": "AI/ML Elective" },
+    { "degreeId": "deg-bscs", "courseId": "cs-499", "required": true, "category": "Capstone Design" },
+
+    { "degreeId": "deg-bsds", "courseId": "cs-101", "required": true, "category": "Core Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "ds-101", "required": true, "category": "Core Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "math-101", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "math-102", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "cs-201", "required": true, "category": "Core Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "ds-201", "required": true, "category": "Core Intermediate" },
+    { "degreeId": "deg-bsds", "courseId": "math-202", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "math-301", "required": true, "category": "Math Foundation" },
+    { "degreeId": "deg-bsds", "courseId": "cs-301", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bsds", "courseId": "cs-302", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bsds", "courseId": "ds-301", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bsds", "courseId": "ds-302", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bsds", "courseId": "cs-401", "required": true, "category": "Core Advanced" },
+    { "degreeId": "deg-bsds", "courseId": "ds-401", "required": false, "category": "Elective" },
+    { "degreeId": "deg-bsds", "courseId": "cs-450", "required": false, "category": "Elective" },
+    { "degreeId": "deg-bsds", "courseId": "ds-499", "required": true, "category": "Capstone Design" },
+
+    { "degreeId": "deg-mscs", "courseId": "cs-501", "required": true, "category": "Graduate Core" },
+    { "degreeId": "deg-mscs", "courseId": "cs-550", "required": true, "category": "Graduate Core" },
+    { "degreeId": "deg-mscs", "courseId": "cs-401", "required": false, "category": "Graduate Elective" },
+    { "degreeId": "deg-mscs", "courseId": "cs-403", "required": false, "category": "Graduate Elective" },
+    { "degreeId": "deg-mscs", "courseId": "cs-450", "required": false, "category": "Graduate Elective" }
+  ]
+}

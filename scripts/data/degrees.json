@@ -1,0 +1,29 @@
+[
+  {
+    "id": "deg-bscs",
+    "name": "Bachelor of Science in Computer Science",
+    "code": "BS CS",
+    "type": "Bachelor",
+    "departmentId": "dept-cs",
+    "totalCredits": 120,
+    "description": "Comprehensive curriculum covering theoretical foundations of computer science, modern software systems, algorithms, distributed systems, and AI."
+  },
+  {
+    "id": "deg-bsds",
+    "name": "Bachelor of Science in Data Science",
+    "code": "BS DS",
+    "type": "Bachelor",
+    "departmentId": "dept-ds",
+    "totalCredits": 120,
+    "description": "Interdisciplinary program integrating statistical modeling, machine learning, big data infrastructure, and computational domain applications."
+  },
+  {
+    "id": "deg-mscs",
+    "name": "Master of Science in Computer Science",
+    "code": "MS CS",
+    "type": "Master",
+    "departmentId": "dept-cs",
+    "totalCredits": 36,
+    "description": "Advanced graduate program focusing on specialized tracks in Machine Learning, Distributed Systems, and High-Performance Computing."
+  }
+]

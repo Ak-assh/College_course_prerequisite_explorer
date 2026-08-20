@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: college-course-explorer-api
+    env: node
+    region: oregon
+    buildCommand: npm install
+    startCommand: node server/index.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEO4J_URI
+        sync: false
+      - key: NEO4J_PASSWORD
+        sync: false
+      - key: NEO4J_USER
+        value: cognodb
+      - key: FRONTEND_URL
+        sync: false
