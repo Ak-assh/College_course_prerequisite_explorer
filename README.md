@@ -4,7 +4,7 @@
 > A graph database application built on CognoDB (openCypher/Bolt) that lets students visually
 > explore course prerequisite chains, check eligibility, and plan their academic path.
 
-🚀 **[Live Demo](#)** · 📹 **[Screen Recording](#)** · 📊 **[Data Model](#data-model)**
+🚀 **[Live Demo](https://college-course-prerequisite-explore.vercel.app/)** · 📹 **[Screen Recording](#)** · 📊 **[Data Model](#data-model)**
 
 ---
 
@@ -93,7 +93,7 @@ Graph databases win here because:
 For step-by-step instructions on deploying the backend to **Render** and the frontend to **Vercel**, refer to the detailed [DEPLOYMENT.md](file:///c:/Users/KIIT/Desktop/College_Course_prerequisite_explorer/DEPLOYMENT.md) guide.
 
 - **Backend (Render):** [https://college-course-prerequisite-explorer.onrender.com](https://college-course-prerequisite-explorer.onrender.com) (API Health: `/api/health`)
-- **Frontend (Vercel):** React Vite application with `VITE_API_URL` pointing to `https://college-course-prerequisite-explorer.onrender.com`.
+- **Frontend (Vercel):** [https://college-course-prerequisite-explore.vercel.app](https://college-course-prerequisite-explore.vercel.app)
 
 ---
 
