@@ -59,9 +59,7 @@ This guide provides step-by-step instructions for hosting the **College Course P
 5. Expand **Environment Variables** and add:
    | Key | Value |
    |---|---|
-   | `VITE_API_URL` | `https://college-course-explorer-api.onrender.com` |
-
-   *(Replace with your actual Render service URL from Step 2)*
+   | `VITE_API_URL` | `https://college-course-prerequisite-explorer.onrender.com` |
 
 6. Click **Deploy**.
 7. Once deployed, copy your production Vercel URL (e.g., `https://college-course-prerequisite-explorer.vercel.app`).

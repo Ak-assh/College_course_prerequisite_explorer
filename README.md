@@ -92,8 +92,8 @@ Graph databases win here because:
 
 For step-by-step instructions on deploying the backend to **Render** and the frontend to **Vercel**, refer to the detailed [DEPLOYMENT.md](file:///c:/Users/KIIT/Desktop/College_Course_prerequisite_explorer/DEPLOYMENT.md) guide.
 
-- **Backend (Render):** Express API web service with environment variables (`NEO4J_URI`, `NEO4J_PASSWORD`, `NODE_ENV`).
-- **Frontend (Vercel):** React Vite application with `VITE_API_URL` pointing to Render API.
+- **Backend (Render):** [https://college-course-prerequisite-explorer.onrender.com](https://college-course-prerequisite-explorer.onrender.com) (API Health: `/api/health`)
+- **Frontend (Vercel):** React Vite application with `VITE_API_URL` pointing to `https://college-course-prerequisite-explorer.onrender.com`.
 
 ---
 
